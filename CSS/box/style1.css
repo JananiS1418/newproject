@@ -1,0 +1,32 @@
+.box1{
+    background-color: pink;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border: 15px solid rosybrown;
+    margin: 25px;
+}
+.box2{
+    background-color: skyblue;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border: 15px solid blue;
+    margin: 25px;
+}
+.box3{
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border: 15px solid green;
+    margin: 25px;
+}
+.box4{
+    background-color: red;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border: 15px solid brown;
+    margin: 25px;
+}

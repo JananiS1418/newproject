@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    padding: 10px;
+    background-color: rgb(255,255,255);
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.nav{
+    display: flex;
+    gap: 50px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    color: white;
+}
+.search input{
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(234, 190, 190);
+    border: solid 1px bisque;
+    padding: 20px;
+    font-size: 15px;
+}
+.delivery{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.bigbox{
+    padding: 20px;
+    background-color: rgb(32, 32, 227);
+    border: solid 8px gold;
+    border-radius: 30px;
+    height: 300px;
+    width: 1500px;
+    display: flex;
+    color: white;
+    align-items: center;
+    gap: 150px;
+    font-size: 20px;
+}
+.parentbox{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+    
+}
+.box{
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+   
+
+    
+}
+.boxes{
+    display: flex;
+    gap: 70px;
+}
+.box1{
+    border: dotted 2px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 120px;
+    width: 300px;
+    font-size: 30px;
+}
+.box2{
+    border: dotted 2px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 120px;
+    width: 350px;
+    font-size: 30px;
+}
+.box2 img{
+    background-color: white;
+    width: 90px;
+
+}

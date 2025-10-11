@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.class{
+    background-color: aquamarine;
+    color: black;
+    border: 10px solid burlywood;
+   
+}
+.pseudoclass{
+    text-align: center;
+}
+
+
+.pseudoclass img {
+    width: 200px;
+    height: 200px;
+     
+    
+
+}
+.pseudoclass h2{
+    color:blueviolet;
+}
+.elements{
+     background-color: rgba(98, 229, 65, 0.74);
+   
+    color: black;
+    border: 10px solid lightcoral;
+
+}
+.pseudoelements{
+    text-align: center;
+}
+
+
+.pseudoelements img{
+    width: 200px;
+    height: 200px;
+     
+    
+
+}
+.pseudoelements h2{
+    color: rgba(165, 42, 42, 0.844);
+}
+.difference{
+     background-color: rgba(217, 65, 225, 0.551);
+    color: black;
+    border: 10px solid rgba(224, 233, 123, 0.507);
+    text-align: center;
+    padding: 5px;
+
+}
+.difference img {
+    width: 200px;
+    height: 200px;
+     
+    
+
+}
+.difference h2{
+    color: rgba(215, 49, 57, 0.844);
+}
+.position{
+    background-color: rgba(230, 216, 55, 0.551);
+    color: black;
+    border: 10px solid rgba(33, 130, 182, 0.507);
+    text-align: center;
+    padding: 5px;
+}
+.position h2{
+     color: rgba(215, 49, 57, 0.844);
+}
+.position img {
+    width: 200px;
+    height: 200px;
+     
+    
+
+}
+.z-index{
+    background-color: rgba(24, 202, 222, 0.551);
+    color: black;
+    border: 10px solid rgba(212, 21, 18, 0.507);
+    text-align: center
+
+}
