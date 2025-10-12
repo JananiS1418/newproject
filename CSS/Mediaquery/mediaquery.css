@@ -1,0 +1,67 @@
+body{
+    background-color:rgb(239, 119, 117);
+}
+.box{
+    background-color: blueviolet;
+    color: azure;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+.parentbox{
+    display: flex;
+    justify-content: space-around;
+
+}
+@media (max-width:1600px){
+    .box{
+        background-color: brown;
+       background-image: url(../assests/box3.jpeg);
+       width: 200px;
+       height: 150px;
+    
+    }
+}
+@media (max-width:1030px){
+    .box{
+        background-color: aqua;
+        background-image: url(../assests/box1.jpg);
+        display: none;
+        
+        
+    }
+}
+@media (max-width:780px){
+    .box{
+        background-color: aquamarine;
+        background-image: url(../assests/box2.jpg);
+        display: flex;
+    }
+}
+@media (max-width:620px){
+    .box{
+        background-color: lightpink;
+         background-image: url(../assests/box4.jpeg);
+         display: none;
+      
+       
+    }
+
+}
+@media (max-width:490px){
+    .box{
+        background-color: lightgreen;
+        background-image: url(../assests/box5.jpeg);
+        display: flex;
+        
+    }
+}
+@media (max-width:360px){
+    .box{
+        background-color:palevioletred;
+        background-image: url(../assests/box6.jpg);
+        display: none;
+        
+        
+    }
+}

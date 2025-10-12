@@ -1,9 +1,26 @@
+body{
+     background-image: url(CSS/assests/index.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     
 
+}
+.index{
+     display: flex;
+     flex-direction:row;
+     gap: 5px;
+}
 .index a{
     
-     background-color: black;
-     color: white;
+     background-color: rgb(163, 9, 186);
+     color: wheat;
      text-decoration: none;
      padding: 20px;
+     font-size:medium;
 
+
+
+}
+.head{
+     color: black;
 }
