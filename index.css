@@ -24,3 +24,16 @@ body{
 .head{
      color: black;
 }
+.index1{
+     display: flex;
+     flex-direction:row;
+     gap: 5px;
+}
+.index1 a{
+    
+     background-color: rgb(163, 9, 186);
+     color: wheat;
+     text-decoration: none;
+     padding: 20px;
+     font-size:medium;
+}
