@@ -1,0 +1,59 @@
+function StudentName(){
+    console.log('Student details added');
+}
+StudentName();
+
+function students_id(){
+    console.log('update student id');
+}
+students_id();
+
+function StudentGender(){
+    console.log('Student Gender');
+}
+StudentGender();
+
+function StudentFatherName(){
+    console.log('Add Student father name');
+}
+StudentFatherName();
+
+function college_name(){
+    console.log('college name');
+}
+college_name();
+
+function college_address(){
+    console.log('college address');
+}
+college_address();
+
+function StudentDepartment(){
+    console.log('Student department');
+}
+StudentDepartment(;
+
+function StudentRollNo(){
+    console.log('Student Roll no');
+}
+ StudentRollNo();
+
+function StudentRegisterNumber(){
+    console.log('Student register number');
+}
+StudentRegisterNumber();
+
+function TotalSubject(){
+    console.log('total subject');
+}
+TotalSubject()
+
+function total_cgpa(){
+    console.log('cgpa of students');
+}
+total_cgpa();
+
+function StaffName(){
+    console.log('Name of the staff');
+}
+StaffName();

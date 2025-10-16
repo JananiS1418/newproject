@@ -1,0 +1,144 @@
+const travel_agency_name =() => {
+   console.log('Agency name');
+}
+travel_agency_name();
+
+const travelId =() => {
+   console.log('travel id');
+}
+travelId();
+
+const customer_id =() => {
+   console.log('customer id');
+}
+customer_id();
+
+const bookingId =() => {
+   console.log('booking id');
+}
+ bookingId();
+
+const seatNumber =() => {
+   console.log('seat number');
+}
+seatNumber();
+
+const ticket_price =() => {
+   console.log('ticket price');
+}
+ticket_price();
+
+const total_ticket_price =() => {
+   console.log('total ticket price');
+}
+ticket_price();
+
+const luggage_count =() => {
+   console.log('luggage count');
+}
+luggage_count();
+
+const LuggageWeight =() => {
+   console.log('luggage weight');
+}
+LuggageWeight();
+
+const packageDuration =() => {
+   console.log('package duration');
+}
+packageDuration();
+
+const hotel_name =() => {
+   console.log('name of the hotel');
+}
+hotel_name();
+
+const hotelId =() => {
+   console.log('hotel id');
+}
+hotelId();
+
+const hotel_room_number =() => {
+   console.log('hotel room number');
+}
+hotel_room_number();
+
+const discountAmount =() => {
+   console.log('discount amount');
+}
+discountAmount();
+
+const DiscountPercentage =() => {
+   console.log('discount percentage');
+}
+DiscountPercentage();
+
+const total_tickets =() => {
+   console.log('total tickets');
+}
+total_tickets();
+
+const total_adult =() => {
+   console.log('total adult');
+}
+total_adult();
+
+const TotalChildren =() => {
+   console.log('total tickets');
+}
+TotalChildren();
+
+const male_count =() => {
+   console.log('male count');
+}
+male_count();
+
+const female_count =() => {
+   console.log('female count');
+}
+female_count();
+
+const travel_class_code =() => {
+   console.log('travel code');
+}
+travel_class_code();
+
+const seat_row =() => {
+   console.log('seat row');
+}
+seat_row();
+
+const seatColumn =() => {
+   console.log('seat column');
+}
+seatColumn();
+
+const terminal_number =() => {
+   console.log('terminal number');
+}
+terminal_number();
+
+const bus_number =() => {
+   console.log('bus number');
+}
+bus_number();
+
+const boardingGate =() => {
+   console.log('boarding gate');
+}
+boardingGate();
+
+const hotelBookingId =() => {
+   console.log('hotel booking id');
+}
+hotelBookingId();
+
+const RoomFloorNumber =() => {
+   console.log('room floor number');
+}
+RoomFloorNumber();
+
+
+
+
+

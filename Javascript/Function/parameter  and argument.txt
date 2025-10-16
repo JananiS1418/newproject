@@ -1,0 +1,77 @@
+const movieName =(movie 1, movie 2)=>{
+console.log(movie 1, movie 2);
+}
+movieName(Idly kadai , Kantara);
+
+const movie_time =(movietime 1, movietime 2)=>{
+console.log(movietime 1, movietime 2);
+}
+movie_time(4.40,7.30);
+
+const theatreName =(theatre 1, theatre 2)=>{
+console.log(theatre 1, theatre 2);
+}
+theatreName(thirumahal,Ganesha);
+
+const theatreLocation =(location 1, location 2)=>{
+console.log(location 1, location 2);
+}
+theatreLocation(kallavi , uthangarai);
+
+const movieGenre =(genre)=>{
+console.log(genre);
+}
+movieGenre(Action);
+
+const movie_language =(language 1 ,language 2)=>{
+console.log(language 1 ,language 2);
+}
+movie_language(tami , english);
+
+const showDate =(date)=>{
+console.log(date);
+}
+showDate(16);
+
+const seatNumber =(seat no  1 ,seat no 2)=>{
+console.log(seat no  1 ,seat no 2);
+}
+seatNumber(4,5);
+
+const customerName =(name 1 , name 2)=>{
+console.log(name 1 , name 2);
+}
+customerName(4,5);
+
+const CustomerPhonenumber =(phone no  1 ,phone no 2)=>{
+console.log(phone no  1 ,phone no 2);
+}
+CustomerPhonenumber(6379669174,7904989068);
+
+
+const TotalCustomer =(customer)=>{
+console.log(customer);
+}
+TotalCustomer(one);
+
+
+
+const ticketAmount =(amount 1 ,amount 2)=>{
+console.log(amount  1 ,amount 2);
+}
+ticketAmount(120,160);
+
+
+
+const customer_gender =(customer 1 ,customer 2)=>{
+console.log(customer 1 ,customer 2);
+}
+customer_gender(female,female);
+
+
+
+const PaymentMethod =(Method  1 ,Method 2)=>{
+console.log(Method  1 ,Method 2);
+}
+PaymentMethod(cash,gpay);
+

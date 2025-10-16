@@ -1,0 +1,59 @@
+const hospitalName = function(){
+    console.log('Name of the Hospital');
+}
+hospitalName();
+
+const hospital_location = function(){
+    console.log('Location of the Hospital');
+}
+hospital_location();
+
+const hospitalAddress = function(){
+    console.log('Address of the Hospital');
+}
+hospitalAddress();
+
+const patient_name = function(){
+    console.log('Name of the patient');
+}
+patient_name();
+
+const patientAge = function(){
+    console.log('patient age');
+}
+patientAge();
+
+const patient_details = function(){
+    console.log('patient details');
+}
+patient_details();
+
+const patientGender = function(){
+    console.log('Gender of the patient');
+}
+patientGender();
+
+const diseaseDiagnosed = function(){
+    console.log('Disease diagnosed');
+}
+diseaseDiagnosed();
+
+const DoctorName = function(){
+    console.log('Name of the doctor');
+}
+DoctorName();
+
+const doctor_specialization = function(){
+    console.log('specialization of the doctor');
+}
+doctor_specialization();
+
+const prescription_described = function(){
+    console.log('Prescription');
+}
+prescription_described();
+
+const BillAmount = function(){
+    console.log('Bill amount');
+}
+BillAmount();
