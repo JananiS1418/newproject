@@ -28,8 +28,10 @@ console.log(TotalBriyani.total2.briyani);
 let desert_name = [{dessert1:"Icecream",dessert2:{sweet1:"GulabJamun",sweet2:"guava"}}];
 console.log(desert_name[0].dessert1);
 
-let PaymentMethod = [{payment1:"Cash",payment2:{payment3:"Gpay",payment4:"Paytm"}}];
-console.log(PaymentMethod[0].payment2);
+let PaymentMethod = [{payment1:"Cash"},{payment2:{payment3:"Gpay",payment4:"Paytm"}},];
+console.log(PaymentMethod[0].payment1);
+
+
 
 let payment_status = [{paymentmethod1:"paid",paymentmethod2:{paymentmethod3:"not paid",paymentmethod4:"paid"}}];
 console.log(payment_status[0].paymentmethod2);
