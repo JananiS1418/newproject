@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Shop</title>
+</head>
+<body>
+    <h1> JANU TEA SHOP</h1>
+    <script>
+        let teaShopName = "JANU TEA SHOP"
+        console.log(teaShopName);
+
+        let shopAddress = "k.k nagar,chennai"
+        console.log(shopAddress);
+
+        let contact_number = "6379669174"
+        console.log( contact_number);
+        
+        let shop_category1 ={category1:"tea",category2:"coffee",category3:"snacks",category4:"juices"}
+        console.log(shop_category1.category1);
+        let tea_category = ["Ginger Tea", "Masala Tea","Lemon Tea","Cardamom Tea"];
+        console.log(tea_category);
+        let tea_prices = {Gingertea:"20" ,Masalatea:"15",lemontea:"20",cardamomtea:"20"}
+        console.log(tea_prices);
+
+        let shop_category2 ={category1:"tea",category2:"coffee",category3:"snacks",category4:"juices"}
+        console.log(shop_category2.category2);
+         let coffee_category = ["Filter Coffee", "Black Coffee","Cappuccino","Normal Coffee"];
+        console.log(coffee_category);
+          let coffee_prices = {Filtercoffee:"15" ,Blackcoffee:"25",Cappuccino:"30",Normalcoffee:"10"}
+        console.log(coffee_prices);
+
+        let shop_category3 ={category1:"tea",category2:"coffee",category3:"snacks",category4:"juices"}
+        console.log(shop_category3.category3);
+         let snacks_category = ["SaltBiscuits", "Puffs","Cup Cakes","Bun"];
+        console.log(snacks_category);
+         let snacks_prices = {SaltBiscuits:"10" ,Puff:"20",Cupcakes:"20",cardamomtea:"20"}
+        console.log(snacks_prices);
+
+        let shop_category4 ={category1:"tea",category2:"coffee",category3:"snacks",category4:"juices"}
+        console.log(shop_category2.category4);
+        let juices_category = ["Apple","Pomegranate","WaterMelon","Orange","Milkshakes"];
+        console.log(juices_category);
+        let juices_prices = {Apple:"30" ,Pomegranate:"40",Watermelon:"40",Orange:"30",Milkshakes:"50"}
+        console.log(juices_prices);
+
+        const order_menu = (orders)=>{
+            console.log(orders);
+            
+        }
+        order_menu("customer :I want tea");
+
+        const order_menu1 = (orders)=>{
+            console.log(orders);
+            
+        }
+        order_menu1("waiter : Tea is not available");
+
+        
+
+    //     let teaAvailable = "I want tea"
+    //     console.log(teaAvailable);
+
+
+
+    //     let tea_available = "Tea is not available"
+
+    //     if (tea_available=== "Tea is available") {
+    //         console.log("okay wait for 5 mins");
+            
+    //  }else{
+    //     console.log("Tea is not available, please order another item");
+    // }
+
+
+    let juiceAvailable = "customer : okay I want Watermelon Juice";
+    console.log(juiceAvailable);
+
+    const juice_request = (order)=>{
+
+        if (order === "watermelon") {
+            console.log("waiter : yes  please Wait for 5 min ");
+            
+            
+        } else {
+            console.log("Juice is not available,sorry");
+        
+            
+        }
+
+    
+    }
+    juice_request("watermelon");
+    
+
+
+
+    // let juice_available = "Juice is available";
+
+    // if (juice_available== "Juice is available") {
+    //     console.log("waiter : yes  please Wait for 5 min please");
+        
+    // } else {
+    //     console.log("Juice is not available,sorry");
+        
+        
+    // }
+
+      const JuiceAvailable = (Juiceready)=>{
+            console.log(Juiceready);
+            
+        }
+        JuiceAvailable("waiter : Your Juice is ready");
+
+    const billAmount = ()=>{
+        console.log("customer : what is the price of watermelon juice");
+        
+    }
+    billAmount();
+
+    const BillAmount = ()=>{
+        console.log("owner : The price of watermelon juice is 40");
+        
+    }
+    BillAmount();
+
+    const PaymentMethod = ()=>{
+        console.log("owner : What is your payment method");
+        
+    }
+    PaymentMethod();
+
+
+    
+    
+     const paymentMethod = ()=> {
+        console.log("customer  : Gpay");
+        
+     }
+    paymentMethod();
+
+    const paymentStatus = ()=>{
+        console.log("customer :  I Paid");
+        
+    }
+    paymentStatus();
+
+     const payment_Status = ()=>{
+        console.log("owner : Thank you sir");
+        
+    }
+    payment_Status();
+    
+
+    
+        
+        
+
+      
+
+       
+        
+
+
+        
+        
+       
+        
+
+
+    
+
+        
+
+        
+        
+        
+
+        
+    </script>
+    
+</body>
+</html>
