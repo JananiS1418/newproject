@@ -2,27 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea Shop</title>
 </head>
+
 <body>
     <div>
+
        <img  style="display: flex;justify-content: center;align-items: center;width: 1520px;height: 400px;" src="../assets/tea.jpg" alt="Janu tea shop" >
        <button  id="btn1" style="background-color: black;color: white;margin-top: 10px;padding: 5px;">TEA</button>
        <button id="btn2" style="background-color: black;color: white;margin-top: 10px;padding: 5px;">COFFEE</button>
        <button id="btn3" style="background-color: black;color: white;margin-top: 10px;padding: 5px;">SNACKS</button>
        <button id="btn4" style="background-color: black;color: white;margin-top: 10px;padding: 5px;">JUICES</button>
 
-        
     </div>
 
     <div id="tea" style="display: none;">
+
         <button id="teavarieties1" style="background-color: lightcoral;color: black;margin-top: 10px;padding: 10px;">MASALA TEA</button>
         <button id="teavarieties2" style="background-color: aqua;color: black;margin-top: 10px; padding: 10px;">GINGER TEA</button>
         <button id="teavarieties3" style="background-color: lightpink;color: black;margin-top: 10px; padding: 10px;">CARDOMOM TEA</button>
         <button id="teavarieties4" style="background-color: burlywood;color: black;margin-top: 10px; padding: 10px;">NORMAL TEA</button>
+
     </div>
+
     <div id="coffee" style="display: none;">
+
         <button id="coffeevarieties1" style="background-color: rosybrown;color: black;margin-top: 10px; padding: 10px;">BLACK COFFEE</button>
         <button id="coffeevarieties2" style="background-color: violet;color: black;margin-top: 10px; padding: 10px;">FILTER COFFEE</button>
         <button id="coffeevarieties3" style="background-color:palegreen;color: black;margin-top: 10px; padding: 10px;">NORMAL COFFEE</button>
@@ -30,22 +35,32 @@
     </div>
 
     <div id="snacks" style="display: none;">
+
         <button id="snacksvarieties1" style="background-color: peru;color: black;margin-top: 10px; padding: 10px;">SALT BISCUITS</button>
         <button id="snacksvarieties2" style="background-color: plum;color: black;margin-top: 10px; padding: 10px;">PUFFS</button>
         <button id="snacksvarieties3" style="background-color: skyblue;color: black;margin-top: 10px; padding: 10px;">SAMOSA</button>
     </div>
 
     <div id="juices" style="display: none;">
+
         <button id="juicevarieties1" style="background-color: rgb(214, 94, 94);color: black;margin-top: 5px; padding: 10px;">WATERMELON</button>
         <button id="juicevarieties2" style="background-color: wheat;color: black;margin-top: 5px; padding: 10px;">APPLE</button>
         <button id="juicevarieties3" style="background-color: rgb(221, 177, 94);color: black;margin-top: 5px; padding: 10px;">ORANGE</button>
         <button id="juicevarieties4" style="background-color: cornflowerblue;color: black;margin-top: 5px; padding: 10px;">MILKSHAKES</button>
 
     </div>
+
+    <div>
+
+        <button id="button" style="background-color: white;color: black;margin-top: 10px;padding: 10px;">Payment Process</button>
+
+    </div>
+
     <p> <img id="image" src="" alt=""></p>
     
  
     <script>
+
         let buttonteavarieties = document.getElementById("tea");
         let buttontea = document.getElementById("btn1");
         buttontea.addEventListener("click",()=>{
@@ -153,7 +168,7 @@
             image.src = "../assets/juice2.jpg"
         })
 
-       let juicevarieties3 = document.getElementById("juicevarieties3");
+        let juicevarieties3 = document.getElementById("juicevarieties3");
         juicevarieties3.addEventListener("click",()=>{
             image.src = "../assets/juice3.jpg"
         })
@@ -163,7 +178,10 @@
             image.src = "../assets/juice4.jpg"
         })
         
-        
+        let payment = document.getElementById("button")
+        payment.addEventListener("click",()=>{
+             alert("Thanks for your order") 
+        })
         
         
         
