@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea Shop</title>
+</head>
+<body>
+    <div>
+       <img  style="display: flex;justify-content: center;align-items: center;width: 1520px;height: 400px;" src="../assets/tea.jpg" alt="Janu tea shop" >
+       <button  id="btn1" style="background-color: black;color: white;margin-top: 10px;padding: 5px;">TEA</button>
+       <button id="btn2" style="background-color: black;color: white;margin-top: 10px;padding: 5px;">COFFEE</button>
+       <button id="btn3" style="background-color: black;color: white;margin-top: 10px;padding: 5px;">SNACKS</button>
+       <button id="btn4" style="background-color: black;color: white;margin-top: 10px;padding: 5px;">JUICES</button>
+
+        
+    </div>
+
+    <div id="tea" style="display: none;">
+        <button id="teavarieties1" style="background-color: lightcoral;color: black;margin-top: 10px;padding: 10px;">MASALA TEA</button>
+        <button id="teavarieties2" style="background-color: aqua;color: black;margin-top: 10px; padding: 10px;">GINGER TEA</button>
+        <button id="teavarieties3" style="background-color: lightpink;color: black;margin-top: 10px; padding: 10px;">CARDOMOM TEA</button>
+        <button id="teavarieties4" style="background-color: burlywood;color: black;margin-top: 10px; padding: 10px;">NORMAL TEA</button>
+    </div>
+    <div id="coffee" style="display: none;">
+        <button id="coffeevarieties1" style="background-color: rosybrown;color: black;margin-top: 10px; padding: 10px;">BLACK COFFEE</button>
+        <button id="coffeevarieties2" style="background-color: violet;color: black;margin-top: 10px; padding: 10px;">FILTER COFFEE</button>
+        <button id="coffeevarieties3" style="background-color:palegreen;color: black;margin-top: 10px; padding: 10px;">NORMAL COFFEE</button>
+        
+    </div>
+
+    <div id="snacks" style="display: none;">
+        <button id="snacksvarieties1" style="background-color: peru;color: black;margin-top: 10px; padding: 10px;">SALT BISCUITS</button>
+        <button id="snacksvarieties2" style="background-color: plum;color: black;margin-top: 10px; padding: 10px;">PUFFS</button>
+        <button id="snacksvarieties3" style="background-color: skyblue;color: black;margin-top: 10px; padding: 10px;">SAMOSA</button>
+    </div>
+
+    <div id="juices" style="display: none;">
+        <button id="juicevarieties1" style="background-color: rgb(214, 94, 94);color: black;margin-top: 5px; padding: 10px;">WATERMELON</button>
+        <button id="juicevarieties2" style="background-color: wheat;color: black;margin-top: 5px; padding: 10px;">APPLE</button>
+        <button id="juicevarieties3" style="background-color: rgb(221, 177, 94);color: black;margin-top: 5px; padding: 10px;">ORANGE</button>
+        <button id="juicevarieties4" style="background-color: cornflowerblue;color: black;margin-top: 5px; padding: 10px;">MILKSHAKES</button>
+
+    </div>
+    <p> <img id="image" src="" alt=""></p>
+    
+ 
+    <script>
+        let buttonteavarieties = document.getElementById("tea");
+        let buttontea = document.getElementById("btn1");
+        buttontea.addEventListener("click",()=>{
+            buttontea.textContent = "Tea Varieties"
+            buttontea.style.backgroundColor = "white"
+            buttontea.style.color = "black"
+            buttonteavarieties.style.display = "block"
+        
+        })
+        let teavarieties  = document.getElementById("teavarieties1");
+        let image = document.getElementById("image");
+        teavarieties.addEventListener("click",()=>{
+            image.src = "../assets/tea1.jpg"
+    
+        })
+
+        let teavarieties1 = document.getElementById("teavarieties2");
+        teavarieties1.addEventListener("click",()=>{
+            image.src = "../assets/tea2.jpg"
+        })
+
+       let teavarieties2 = document.getElementById("teavarieties3");
+        teavarieties2.addEventListener("click",()=>{
+            image.src = "../assets/tea3.jpg"
+        })
+
+        let teavarieties3 = document.getElementById("teavarieties4");
+        teavarieties3.addEventListener("click",()=>{
+            image.src = "../assets/tea4.jpg"
+        })
+        
+        let buttoncoffeevarieties = document.getElementById("coffee");
+        let buttoncoffee = document.getElementById("btn2");
+        buttoncoffee.addEventListener("click",()=>{
+            buttoncoffee.textContent = "Coffee Varieties"
+            buttoncoffee.style.backgroundColor = "white"
+            buttoncoffee.style.color = "black"
+            buttoncoffeevarieties.style.display = "block"
+            buttonteavarieties.style.display = "none"
+
+        })
+        let coffeevarieties  = document.getElementById("coffeevarieties1");
+        coffeevarieties.addEventListener("click",()=>{
+            image.src = "../assets/coffee1.jpg"
+    
+        })
+
+        let coffeevarieties2 = document.getElementById("coffeevarieties2");
+        coffeevarieties2.addEventListener("click",()=>{
+            image.src = "../assets/coffee2.jpg"
+        })
+
+       let coffeevarieties3 = document.getElementById("coffeevarieties3");
+        coffeevarieties3.addEventListener("click",()=>{
+            image.src = "../assets/coffee3.jpg"
+        })
+        
+         let buttonsnacksvarieties = document.getElementById("snacks");
+        let buttonsnacks = document.getElementById("btn3");
+        buttonsnacks.addEventListener("click",()=>{
+            buttonsnacks.textContent = "Snacks Varieties"
+            buttonsnacks.style.backgroundColor = "white"
+            buttonsnacks.style.color = "black"
+            buttonsnacksvarieties.style.display = "block"
+            buttoncoffeevarieties.style.display = "none"
+            buttonteaevarieties.style.display = "none"
+
+        })
+        let snacksvarieties1  = document.getElementById("snacksvarieties1");
+        snacksvarieties1.addEventListener("click",()=>{
+            image.src = "../assets/snacks1.jpg"
+    
+        })
+
+        let snacksvarieties2 = document.getElementById("snacksvarieties2");
+        snacksvarieties2.addEventListener("click",()=>{
+            image.src = "../assets/snacks2.jpg"
+        })
+
+       let snacksvarieties3 = document.getElementById("snacksvarieties3");
+        snacksvarieties3.addEventListener("click",()=>{
+            image.src = "../assets/snacks3.jpg"
+        })
+
+        let buttonjuicevarieties = document.getElementById("juices");
+        let buttonjuice = document.getElementById("btn4");
+        buttonjuice.addEventListener("click",()=>{
+            buttonjuice.textContent = "Juice Varieties"
+            buttonjuice.style.backgroundColor = "white"
+            buttonjuice.style.color = "black"
+            buttonjuicevarieties.style.display = "block"
+            buttonsnacksvarieties.style.display = "none"
+            buttoncoffeevarieties.style.display = "none"
+            buttonteaevarieties.style.display = "none"
+
+        })
+        let juicevarieties1  = document.getElementById("juicevarieties1");
+        juicevarieties1.addEventListener("click",()=>{
+            image.src = "../assets/juice1.jpg"
+    
+        })
+
+        let juicevarieties2 = document.getElementById("juicevarieties2");
+        juicevarieties2.addEventListener("click",()=>{
+            image.src = "../assets/juice2.jpg"
+        })
+
+       let juicevarieties3 = document.getElementById("juicevarieties3");
+        juicevarieties3.addEventListener("click",()=>{
+            image.src = "../assets/juice3.jpg"
+        })
+
+        let juicevarieties4 = document.getElementById("juicevarieties4");
+        juicevarieties4.addEventListener("click",()=>{
+            image.src = "../assets/juice4.jpg"
+        })
+        
+        
+        
+        
+        
+        
+        
+    </script>
+</body>
+</html>
