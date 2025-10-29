@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Handling</title>
+</head>
+<body>
+    <div >
+    <input type="text" id="flower1">
+    <button id="Btn1">Click</button>
+    <p id="new"></p>
+    <img src="" id="image" alt="">
+    </div>
+
+    <script>
+        const Button = document.getElementById("Btn1")
+
+        Button.addEventListener('click',(e)=>{
+            const  flower1 = document.getElementById("flower1").value
+            const images = document.getElementById("image")
+            const newflower1 = document.getElementById("new")
+            newflower1.textContent = `Your flower: ${flower1}`
+      if(flower1==="rose"){
+         images.src = "../assets/rose.jpg"
+
+      }else if (flower1==="lily") {
+        images.src = "../assets/lily.jpg"
+
+      } else if (flower1==="lotus") {
+        images.src = "../assets/lotus.jpg" 
+
+      }else if (flower1==="jasmine") {
+         images.src = "../assets/jasmine.jpg"
+
+      }else if (flower1==="hibiscus") {
+         images.src = "../assets/hibiscus.jpg"
+
+      }else if (flower1==="marigold") {
+         images.src = "../assets/marigold.jpg"
+
+      }else if (flower1==="sunflower") {
+         images.src = "../assets/sunflower.jpg"
+
+      }else if (flower1==="oleander") {
+        images.src = "../assets/oleander.jpg"
+
+      }
+      else if (flower1==="tuberose") {
+        images.src = "../assets/tuberose.jpg"
+
+      }
+      else if (flower1==="crossandra") {
+        images.src = "../assets/crossandra.jpg"
+
+      }
+
+      
+      
+      else {
+         newflower1.textContent = `Your flower : ${flower1} is not found`
+         images.src = "" 
+      }
+            
+
+        })
+
+        
+    </script>
+</body>
+</html>
