@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+</head>
+
+<body>
+  <form id="form"
+    style="display: flex;flex-direction: column;gap: 20px;justify-content: center;align-items: center;">
+    <label>Enter your name : </label>
+    <input type="text" id="name" placeholder="Must be Capital" style="width: 200px;height: 20px;">
+
+    <label>Enter your email :</label>
+    <input type="email" id="email" placeholder="abcd12@gmail.com" style="width: 200px;height: 20px;">
+
+    <label>Enter Your Age :</label>
+    <input type="number" id="age" placeholder="Must be Above 18" style="width: 200px;height: 20px;">
+
+    <label>Enter your mobile number :</label>
+    <input type="tel" id="mobile" placeholder="Must be 10 characters" style="width: 200px;height: 20px;">
+
+    <label>Enter the Address : </label>
+    <textarea required id="address" style="width: 200px;height: 75px;"></textarea>
+
+    <label>Enter your Gender :</label>
+    <select id="Gender" style="width: 200px;height: 20px;">
+      <option value="" selected disabled>Choose One</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+    </select>
+
+    <button id="Btn" type="submit" style="width: 100px;height: 30px;">Register</button>
+    <p id="para"></p>
+  </form>
+
+  <script>
+    const form = document.getElementById("form");
+    const para = document.getElementById("para");
+
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+
+      const name = document.getElementById("name").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const age = document.getElementById("age").value.trim();
+      const address = document.getElementById("address").value.trim();
+      const mobile = document.getElementById("mobile").value.trim();
+      const Gender = document.getElementById("Gender").value;
+
+     
+      if (!name || !email || !age || !address || !mobile || !Gender) {
+        para.innerText = "Please fill all fields before submitting";
+        para.style.color = "red";
+        return; 
+      }
+      if (age < 18) {
+        para.innerText = "Age must be above 18";
+        para.style.color = "red";
+        return;
+      }
+
+      if (mobile.length !== 10) {
+        para.innerText = "Mobile number must be exactly 10 digits";
+        para.style.color = "red";
+        return;
+      }
+
+      
+      para.innerText = "Form submitted successfully";
+      para.style.color = "green";
+      alert("Successfully submitted");
+      form.reset(); 
+    });
+  </script>
+</body>
+
+</html>

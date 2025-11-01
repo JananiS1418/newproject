@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spread Operator</title>
+</head>
+<body>
+    <h1>Spread Operator</h1>
+    <script>
+         const a = [1,2,3,4,5];
+        const [...numbers] =a;
+        console.log(...numbers);
+
+        const colors = ["red","green","blue"];
+        const [first,...second] =colors;
+        console.log(first,...second);
+
+        const c = ["chocolate","Icecream"];
+        const [...dessert] =c;
+        console.log(...dessert);
+
+        const d = ["vennila","strawberry","chocolate"];
+        const [...varieties] =d;
+        console.log(...varieties);
+
+        const e = ["Janani","S"];
+        const [...name] =e;
+        console.log(...name);
+
+        const f = [6,7,8,9,10];
+        const [...third] =f;
+        console.log(...third);
+
+        const g = ["Janu"];
+        const [...nickname] =g;
+        console.log(...nickname);
+
+        const h = [1,2,3,4,5];
+        const [...fifth] =h;
+        console.log(...fifth);
+
+        const i = ["car","bike"];
+        const [...car] =i;
+        console.log(...car);
+
+        const j = ["Sweet"];
+        const [...Sweet] =j;
+        console.log(...Sweet);
+    </script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destructure</title>
+</head>
+<body>
+    <h1>Destructuring in Object and array</h1>
+    <p id="display1"></p>
+    <p id="display2"></p>
+    <p id="display3"></p>
+    <p id="display4"></p>
+    <p id="display5"></p>
+    <p id="display6"></p>
+    <p id="display7"></p>
+    <p id="display8"></p>
+    <p id="display9"></p>
+    <p id="display10"></p>
+    <p id="display11"></p>
+    <p id="display12"></p>
+    <p id="display13"></p>
+    <p id="display14"></p>
+    <p id="display15"></p>
+    <p id="display16"></p>
+    <p id="display17"></p>
+    <p id="display18"></p>
+    <p id="display19"></p>
+    <p id="display20"></p>
+
+    
+    <script>
+        const a = [1,2,3,4,5];
+        const [...numbers] =a;
+        const a1 = document.getElementById("display1");
+         a1.innerHTML = `The value is ${numbers}`
+        
+        
+
+        const colors = ["red","green","blue"];
+        const [first,...second] =colors;
+        const colors1 = document.getElementById("display2");
+        colors1.innerHTML = `The color is ${first,second}`
+
+        const c = ["chocolate","Icecream"];
+        const [...dessert] =c;
+        const c1 = document.getElementById("display3");
+        c1.innerHTML = `The dessert is ${dessert}`
+
+        const d = ["vennila","strawberry","chocolate"];
+        const [...varieties] =d;
+        const d1 = document.getElementById("display4");
+        d1.innerHTML = `The flavour is ${varieties}`
+
+        const e = ["Janani","S"];
+        const [...name] =e;
+        const e1 = document.getElementById("display5")
+        e1.innerHTML = `The name is ${name}`
+
+        const f = [6,7,8,9,10];
+        const [...third] =f;
+        const f1 = document.getElementById("display6")
+        f1.innerHTML = `The value is ${third}`
+
+        const g = ["Janu"];
+        const [nickname] =g;
+        const g1 = document.getElementById("display7")
+        g1.innerHTML = `The name is ${nickname}`
+
+        const h = [1,2,3,4,5];
+        const [fifth] =h;
+        const h1 = document.getElementById("display8")
+        h1.innerHTML  = `The number is ${fifth}`
+
+        const i = ["car","bike"];
+        const [...car] =i;
+        const i1 = document.getElementById("display9")
+        i1.innerHTML = `The vehicle is ${car}`
+
+        const j = ["Sweet"];
+        const [Sweet] =j;
+        const j1 = document.getElementById("display10")
+        j1.innerHTML = `The dessert is ${Sweet}`
+
+        const k = {name1:"Janani",year:"2003"}
+        const {name1,year} = k;
+        const k1 = document.getElementById("display11")
+        k1.innerHTML = `The name and year is ${name1} and ${year}`
+
+        const l = {date:"14",month:"07",year1:"2003"}
+        const {date,month,year1} = l;
+        const l1 = document.getElementById("display12")
+        l1.innerHTML = `The date of birth is ${date}-${month}-${year}`
+
+        const m = {animal1:"Lion",animal2:"Tiger",animal3:"Cheetah"}
+        const {animal1,animal2,animal3} = m;
+        const m1 = document.getElementById("display13")
+        m1.innerHTML = ` The animal name is ${animal1},${animal2},${animal3}`
+    
+
+        const n = {petanimal1:"Dog",petanimal2:"Cat"}
+        const {petanimal1,petanimal2} = n;
+        const n1 = document.getElementById("display14")
+        n1.innerHTML = `The petanimal name is ${petanimal1},${petanimal2}`
+
+        const o = {fathername1:"Somasundaram",mothername2:"Savitha"}
+        const {fathername1,mothername2} = o;
+        const o1 = document.getElementById("display15")
+        o1.innerHTML = `The  name is ${fathername1},${mothername2}`
+
+        const p = {electronics1:"Fan",electronics2:"Fridge"}
+        const {electronics1,electronics2} = p;
+        const p1 = document.getElementById("display16")
+        p1.innerHTML = `The  Electronics is ${electronics1},${electronics2}`
+
+        const q = {bird1:"Peacock",bird2:"Crow"}
+        const {bird1,bird2} = q;
+        const q1 = document.getElementById("display17")
+        q1.innerHTML = `The  birds is ${bird1},${bird2}`
+
+        const r = {brothername:"Mohana Krishnan"}
+        const {brothername} = r;
+        const r1 = document.getElementById("display18")
+        r1.innerHTML = `My Brother name is ${brothername}`
+
+        const s = {color1:"Pink",color2:"Black"}
+        const {color1,color2} = s;
+        const s1 = document.getElementById("display19")
+        s1.innerHTML = `The  colors are ${color1},${color2}`
+
+        const t = {place1:"Kerala",place2:"Bangalore"}
+        const {place1,place2} = t;
+        const t1 = document.getElementById("display20")
+        t1.innerHTML = `The  places are ${place1},${place2}`
+    </script>
+</body>
+</html>

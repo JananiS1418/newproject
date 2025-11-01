@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest Operator</title>
+</head>
+<body>
+    <h1>Rest Operator</h1>
+    <script>
+
+        const a = (...a)=>{
+            const number = a.filter((e)=>e%2===0);
+            console.log('even',number);
+            
+        }
+        a(1,2,3,4,5,6);
+
+
+        const a1 = (...a)=>{
+            const number1 = a.reduce((b,e)=>b+e,0);
+            console.log('value',number1);
+            
+        }
+        a1(1,2,3);
+
+
+         const a2 = (...a)=>{
+         a.forEach((currentvalue,index) => {
+                console.log(currentvalue,index);
+                
+            });
+         }
+         a2([6,7,8,9,10]);
+         
+
+        const a3 = (...a)=>{
+         a.map((currentvalue)=>{
+                console.log(currentvalue);
+                
+            })
+        }
+        a3(1,2,3,4,5);
+        
+
+        
+
+
+    </script>
+    
+</body>
+</html>
