@@ -64,3 +64,18 @@ body{
      padding: 20px;
      font-size:medium;
 }
+
+.index4 {
+     display: flex;
+     flex-direction:row;
+     gap: 5px;
+     margin-top: 15px;
+}
+.index4 a{
+    
+     background-color: rgb(163, 9, 186);
+     color: wheat;
+     text-decoration: none;
+     padding: 20px;
+     font-size:medium;
+}
