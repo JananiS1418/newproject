@@ -1,0 +1,53 @@
+1.Fetch()
+   It is used to make HTTP Request like getting data from an API or sending data to a server.
+
+why we use fetch()
+    =>to get data from APIs
+    =>To send data to servers
+    =>To update or delete data on a server
+
+Where we use fetch()
+     =>Web applications that display live or dynamic data.
+
+2.table
+   A table is a way to display data in rows and columns
+
+tags
+
+<table> → creates a table
+<tr> → table row
+<th> → table header (bold)
+<td> → table data cell
+
+foreach()
+   =>Executes the function for each element
+   =>It’s often used to loop through arrays and perform actions
+
+3..then()
+    =>It is a function run one after another
+    =>Run when promise is fulfilled
+
+Array Methods
+
+ map()
+  =>Create a new array by applying a  function
+  =>It can return a value
+ 
+ filter()
+   =>Return a new array that passes a condition 
+   =>Returns all the element that matches the condition
+
+ reduce()
+   =>Reduce the array to a single value by using accumulator
+
+4.DOM
+   =>It is a Document Object Model
+   =>It is a API method to handle html structures and values
+   =>It is converted the html file into a object like tree structure 
+   =>It is the live representation of a html page
+   =>JavaScript can use it to read ,modify ,delete and add elements dynamically.
+   =>The methods are selectors ,properties ,events and eventlistener
+   =>The selector is used for interaction where to change ,modify or manipulate to the machine
+   =>The property is used to show to the screen
+   =>The event is used to tell the browser what the user doing
+
