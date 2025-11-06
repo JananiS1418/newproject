@@ -13,7 +13,7 @@
         const fetchdata = async ()=>{
             try {
                 console.log("Fetching data");
-                const data = await fetch("https://dummyjson.com/quotes?limit10")
+                const data = await fetch("https://dummyjson.com/quotes?limit=10")
                 console.log(data);
 
                 const data1 = await data.json();
@@ -34,6 +34,9 @@
         }
         
         fetchdata()
+    
+
+
     </script>
 </body>
 </html>
