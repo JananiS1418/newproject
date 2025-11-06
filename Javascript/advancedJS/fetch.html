@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch</title>
+</head>
+<body>
+
+     <h2>Quotes</h2>
+     <div id="data"></div>
+    <script>
+        const fetchdata = async ()=>{
+            try {
+                console.log("Fetching data");
+                const data = await fetch("https://dummyjson.com/quotes?limit10")
+                console.log(data);
+
+                const data1 = await data.json();
+                const data2 = data1.quotes;
+                const container = document.getElementById("data")
+                
+                data2.forEach(items => {
+
+            const quotes = document.createElement("div")
+            quotes.innerHTML =`<h2>${items.id} . ${items.quote}</h2>`
+            container.appendChild(quotes)
+            });     
+            } catch (error) {
+                 console.error('Something went wrong',error);
+                
+            }
+            
+        }
+        
+        fetchdata()
+    </script>
+</body>
+</html>

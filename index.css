@@ -1,81 +1,56 @@
-body{
-     background-image: url(CSS/assests/index.jpg);
-     background-size: cover;
-     background-repeat: no-repeat;
-     
-
-}
-.index{
-     display: flex;
-     flex-direction:row;
-     gap: 5px;
-}
-.index a{
-    
-     background-color: rgb(163, 9, 186);
-     color: wheat;
-     text-decoration: none;
-     padding: 20px;
-     font-size:medium;
-
-
-
-}
-.head{
-     color: black;
-}
-.index1{
-     display: flex;
-     flex-direction:row;
-     gap: 5px;
-}
-.index1 a{
-    
-     background-color: rgb(163, 9, 186);
-     color: wheat;
-     text-decoration: none;
-     padding: 20px;
-     font-size:medium;
-}
-.index2{
-     display: flex;
-     flex-direction:row;
-     gap: 5px;
-}
-.index2 a{
-    
-     background-color: rgb(163, 9, 186);
-     color: wheat;
-     text-decoration: none;
-     padding: 20px;
-     font-size:medium;
+body {
+    background-image: url(CSS/assests/index.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
 }
 
-.index3{
-     display: flex;
-     flex-direction:row;
-     gap: 5px;
-}
-.index3 a{
-    
-     background-color: rgb(163, 9, 186);
-     color: wheat;
-     text-decoration: none;
-     padding: 20px;
-     font-size:medium;
+/* Heading */
+.head {
+    color: black;
+    text-align: center;
+    margin: 20px 0;
 }
 
-.index4 {
-     display: flex;
-     flex-direction:row;
-     gap: 5px;
-     margin-top: 15px;
+/* Container */
+.index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
 }
-.index4 a{
-    
-     background-color: rgb(163, 9, 186);
-     color: wheat;
-     text-decoration: none;
-     padding: 20px;
-     font-size:medium;
+
+/* Card Style */
+.index a {
+    background-color: white;           /* solid white */
+    color: black;
+    text-decoration: none;
+    padding: 18px 25px;
+    font-size: medium;
+    border-radius: 12px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    flex: 0 1 calc(10% - 10px);
+    transition: 
+        background-color 0.4s ease,
+        color 0.4s ease,
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
 }
+
+/* Hover Animation */
+.index a:hover {
+    background-color: rgb(163, 9, 186);   /* purple color */
+    color: white;
+    transform: translateY(-5px);
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+
+
+
+
