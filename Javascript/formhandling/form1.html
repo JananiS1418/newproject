@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 1</title>
+</head>
+
+<body>
+    <div id="parent">
+        <form id="myform">
+        <div class="child" >
+            <label>Enter your name</label>
+            <input type="text" id="name">
+        </div>
+        <div class="child" ></div>
+            <label>Enter your email</label>
+            <input type="email" id="email">
+        </div>
+        <div class="child" ></div>
+            <label>Enter password</label>
+            <input type="password" id="password">
+        </div>
+        <div class="child" ></div>
+            <button type="submit">Register</button>
+        </div>
+     </form>    
+    </div>
+
+    <script>
+        const form = document.getElementById("myform")
+        form.addEventListener("submit",(e)=>{
+         e.preventDefault();
+         const name = document.getElementById("name").value
+         const email = document.getElementById("email").value
+         const password = document.getElementById("password").value
+
+         const localdata = localStorage.getItem("datasnew")
+         console.log("localdata",localdata);
+         
+         const change = JSON.parse(localdata) || []
+
+         console.log('change',change);
+         
+
+         const formdatas = {name,email,password}
+
+         console.log('formdatas',formdatas);
+         
+
+
+         change.push(formdatas)
+          
+
+         const datas = JSON.stringify(change)
+
+         console.log('datas',datas);
+         
+
+         const dataslocal = localStorage.setItem("datasnew",datas)
+         
+
+         //console.log(dataslocal);
+
+
+         alert('Done')
+         form.reset()
+
+
+         
+
+        })
+    </script>
+</body>
+
+</html>

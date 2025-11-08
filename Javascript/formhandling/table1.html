@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    
+</head>
+<body>
+    <div style="display: flex;justify-content: center;align-items: center;">
+    <table border="4" cellpadding="25" id="tabledata" >
+            <thead>
+                <th>S.no</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Password</th>
+          
+            </thead>
+        <tbody id="table2">
+        </tbody>
+    </table>
+    </div>
+
+    <script>
+        const takedata = localStorage.getItem("datasnew")
+        const canvert = JSON.parse(takedata)
+          
+          
+        
+
+
+       const datasshowing =  document.getElementById("table2")
+
+      canvert.forEach((e,i)=>{
+       const row = `<tr>
+        <td>${i+1}</td> 
+        <td>${e.name}</td> 
+        <td>${e.email}</td>  
+        <td>${e.password}</td>      
+        </tr>`
+        datasshowing.innerHTML += row;
+      });
+
+     
+
+    </script>
+</body>
+</html>
