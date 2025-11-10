@@ -21,9 +21,17 @@ body {
     padding: 20px;
 }
 
+/* Headings inside index */
+.index h1 {
+    width: 100%;
+    text-align: center;
+    color: rgb(108, 9, 141);
+    margin: 30px 0 10px;
+}
+
 /* Card Style */
 .index a {
-    background-color: white;           /* solid white */
+    background-color: white;           
     color: black;
     text-decoration: none;
     padding: 18px 25px;
@@ -41,16 +49,10 @@ body {
 
 /* Hover Animation */
 .index a:hover {
-    background-color: rgb(163, 9, 186);   /* purple color */
+    background-color: rgb(163, 9, 186);   
     color: white;
     transform: translateY(-5px);
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4);
 }
-
-
-
-
-
-
 
 
