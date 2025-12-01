@@ -1,0 +1,43 @@
+1. What are the most important datatypes in the SQL?
+
+         1. String / Text Data Types
+              (a) VARCHAR(n)-Names, emails
+              (b) CHAR(n)-Codes, fixed values
+              (c) TEXT-Long text
+
+        2. Numeric Data Types
+             (a) INT-Whole numbers
+             (b) BIGINT-Large numbers
+             (c) DECIMAL(p, q)-Money, accurate decimal
+             (d) FLOAT / DOUBLE-Scientific approximate values
+
+       3. Date & Time Data Types
+             (a) DATE-Date  
+             (b) TIME-time
+             (c) DATETIME-Date + time 
+
+       4. Boolean Data Type
+             BOOLEAN-True/false	
+
+       5. Binary Data Type
+            BLOB-Images, files
+
+2.What are the constraints in SQL?
+  
+   1. NOT NULL-Value cannot be NULL.
+   2. UNIQUE-No duplicate values allowed.
+   3. PRIMARY KEY-Identifies each record uniquely.
+   4. FOREIGN KEY-Maintains relationship between tables.
+   5. CHECK-Restricts values based on a logical condition.
+   6. DEFAULT-Assigns a default value if no value is provided.-
+   7. AUTO_INCREMENT-Automatically increases number values.
+   8. INDEX-Speeds up searches on columns.
+   9. UNIQUE KEY-Same as UNIQUE but can be reused multiple times in a table.
+   10. ENUM-Restricts value to only specific options.
+   11. SET-Multiple allowed values from a predefined list.
+   12. ON DELETE / ON UPDATE-Rules for foreign key behavior.
+   13. COMPOSITE KEY-Primary key using multiple columns
+   14. NOT DEFERRABLE / DEFERRABLE-Controls when constraint is checked.
+   15. DOMAIN Constraints-Restrict value type at the database-level (PostgreSQL).
+  
+   
