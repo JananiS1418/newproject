@@ -82,6 +82,13 @@ CREATE TABLE technicians (
 );
 
 
-INSERT INTO  casting (movie_id,actor_id,actor_name,role_name,screen_time_minutes,payment,contract_start
+INSERT INTO  casting (movie_id,actor_id,actor_name,role_name,screen_time_minutes,payment,contract_start,contract_end) VALUES (1, 101, 'Nani', 'Viraj', 120, 80000000, '2023-01-20', '2023-06-10');
 
+INSERT INTO materials (material_id,movie_id,material_name,material_type,supplier_name,quantity,cost_per_unit,purchase_date,location_used,remarks) VALUES (1, 1, 'Flower Bouquet', 'Prop', 'Chennai Props Supply', 10, 150, '2023-06-12', 'Hospital Scene', 'Used for emotional scene');
+
+INSERT INTO Salary_maintenance (salary_id,movie_id,person_name,role,department,base_salary,bonus,total_salary,payment_date) VALUES (1, 1, 'Nani', 'Lead Actor', 'Acting', 5000000, 500000, 5500000, '2023-07-15');
+
+INSERT INTO staff_attendance (attendance_id,movie_id,staff_id,staff_name,department,date,check_in_time,check_out_time,remarks) VALUES (1, 1, 101, 'Ravi Kumar', 'Camera Crew', '2023-05-12', '09:00:00', '18:30:00', 'Worked on outdoor shoot');
+
+INSERT INTO technicians (technician_id,movie_id,technician_name,department,experience_years,contact,salary,joining_date,remarks) VALUES (1, 1, 'Karthik Reddy', 'Lighting', 8, '9876543210', 45000, '2023-04-10', 'Handled lighting setup for major scenes'); 
 
